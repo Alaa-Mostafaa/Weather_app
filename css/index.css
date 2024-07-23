@@ -1,0 +1,189 @@
+/* Global properties*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    background-color: #1e202b;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/*Navigation Bar*/
+nav{
+    background-color: #1e202b;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size:14px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #009ad8;
+    padding: 3px 20px;
+
+
+}
+.active{
+    color: #009ad8;
+border: 2px solid  #009ad8;
+border-radius: 25px;
+}
+.nav-item{
+    padding: 15px;
+}
+
+.nav-link{
+    color: white;
+}
+.navbar-nav , .navbar-nav .nav-link.show{
+    color: #009ad8;
+    padding: 3px 50px;
+
+}
+.nav-link:hover{
+    color: #009ad8;
+    padding: 5px 25px;
+    color: #009ad8;
+    border: 2px solid  #009ad8;
+    border-radius: 25px;
+}
+/* End of Navigation Bar*/
+
+
+/* weather input and table */
+section{
+    background-image: url(banner.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#find {
+    border-radius: 25px;
+    position: absolute;
+    content: "";
+    top: 242px;
+    right: 210px;
+    bottom: 5px;
+    background-color: rgb(0, 154, 216);
+    color: white;
+    border: none;
+    width: 8%;
+    height: 7%;
+
+}
+
+
+
+.form-control {
+    position: relative;
+    background-color: #1e202b;
+    padding: 20px 50px 20px 20px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+}
+.form-control:focus{
+    background-color: #1e202b;
+    box-shadow: none;
+    color: white;
+}
+.form-control::placeholder{
+    color: gray;
+}
+
+
+.card{
+    background-color: #323544;
+}
+
+.card-header{
+    background-color: #1e202b;
+}
+/* End ( weather input and table) */
+
+/* Footer */
+footer{
+    background-color: #262936;
+    padding-bottom: 5%;
+    position: relative;
+
+}
+
+#social-icons i{
+    color: #009ad8;
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 12px;
+}
+
+#social-icons i:hover{
+    background-color: #009ad8;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+#subscribe{
+    position: absolute;
+    content: "";
+    top: 53px;
+    right: 560px;
+    bottom: 5px;
+    background-color: rgb(0, 154, 216);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 8%;
+    height: 22%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  
+
+    #subscribe{
+        width: 15%;
+        height: 20%;
+        right: 95px;
+        top: 53px;
+
+    }
+
+    #find {
+   
+        top: 242px;
+        right: 130px;
+        bottom: 5px;
+        width: 15%;
+        height: 7%;
+    
+    }
+    
+
+  }
+
+
+
+
+@media screen and (max-width:950px) {
+    footer{
+        margin-top: 800px;
+        z-index: -1;
+    }
+    
+}
+
+  
