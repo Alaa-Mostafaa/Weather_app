@@ -42,7 +42,7 @@ function display(country2,cityname){
 
 
     document.getElementById("row").innerHTML=`
-    <div class="col-lg-4">
+    <div class="col-lg-4 h-100">
     <div class="card border-0 rounded-0">
       <div class="card-header border-0">
         <div >
@@ -61,15 +61,15 @@ function display(country2,cityname){
       <p style="color: #009ad8;">${country2.current.condition.text}</p>
       <div class="icons pb-5" style="color: #bfc1c8;">
         <span>
-          <img src="images/icon-umberella@2x.png" alt="umberella" width="21"/>
+          <img src="icon-umberella@2x.png" alt="umberella" width="21"/>
           20%
         </span>
         <span class="ps-4">
-          <img src="images/icon-wind@2x.png" alt="wind" width="21"/>
+          <img src="icon-wind@2x.png" alt="wind" width="21"/>
           ${country2.current.wind_kph} km/h
         </span>
         <span class="ps-4">
-          <img src="images/icon-compass@2x.png" alt="compass" width="21"/>
+          <img src="icon-compass@2x.png" alt="compass" width="21"/>
           ${country2.current.wind_dir}
         </span>
   
@@ -80,7 +80,7 @@ function display(country2,cityname){
   </div>
   
   
-  <div class="col-lg-4">
+  <div class="col-lg-4 h-100">
   <div class="card border-0 rounded-0" style="background-color: #262936;">
     <div class="card-header border-0" style="background-color: rgb(30, 32, 43);">
       <div class="text-center">
@@ -104,7 +104,7 @@ function display(country2,cityname){
   </div>
   
   
-  <div class="col-lg-4">
+  <div class="col-lg-4 h-100">
   <div class="card border-0 rounded-0">
     <div class="card-header border-0">
       <div class="text-center">

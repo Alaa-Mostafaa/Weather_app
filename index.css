@@ -59,10 +59,10 @@ border-radius: 25px;
 
 /* weather input and table */
 section{
-    background-image: url(banner.png);
     height: 60vh;
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #find {
@@ -180,7 +180,7 @@ footer{
 
 @media screen and (max-width:950px) {
     footer{
-        margin-top: 800px;
+        margin-top: 900px;
         z-index: -1;
     }
     
